@@ -10,7 +10,7 @@ public class ArrayInitValue {
 	
 	public void referenceTypeSetValue() {
 		String []  strings = new String[2];
-		ArrayInitValue [] array = new ArrayInitValue[2];
+		ArrayInitValue [] array = new ArrayInitValue[2] ;
 		strings[0] = "Please visit www.GodOfJava.com";
 		array[0] = new ArrayInitValue();
 		System.out.println("strings[0] = " + strings[0]);
