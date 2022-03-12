@@ -14,7 +14,7 @@ public class ArrayInitValue {
 		strings[0] = "Please visit www.GodOfJava.com";
 		array[0] = new ArrayInitValue();
 		System.out.println("strings[0] = " + strings[0]);
-		System.out.println("strings[1] = " + strings[1]);
+		System.out.println("strings[1] = " + strings[1]); 
 		System.out.println("array[0] = " + array[0]);
 		System.out.println("array[1] = " + array[1]);
 	}
