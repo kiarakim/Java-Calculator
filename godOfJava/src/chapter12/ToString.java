@@ -4,8 +4,8 @@ public class ToString {
 
 	public static void main(String[] args) {
 		ToString thisObj = new ToString();
-//		thisObj.toStringMethod(thisObj);
-		thisObj.toStringMethod2();
+		thisObj.toStringMethod(thisObj);
+//		thisObj.toStringMethod2();
 	}
 	
 	public void toStringMethod(Object obj) {
@@ -18,5 +18,9 @@ public class ToString {
 		System.out.println(this);
 		System.out.println(toString());
 		System.out.println("plus " + this);
+	}
+	
+	public String toString() {
+		return "ToString class";
 	}
 }
