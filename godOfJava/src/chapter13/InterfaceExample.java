@@ -1,6 +1,6 @@
 package chapter13;
 
-//import chapter13.InfoManager;
+import chapter13.InfoManager;
 
 public class InterfaceExample {
 
