@@ -13,7 +13,8 @@ public class StrCheck {
 		
 //		sample.checkAddr(addresses);
 //		sample.constainsAddr(addresses);
-		sample.checkMatch();
+//		sample.checkMatch();
+		sample.checkSubstring();
 	}
 	
 	public void checkAddr(String[] addr) {
@@ -50,5 +51,13 @@ public class StrCheck {
 		System.out.println(text.regionMatches(2, compare1, 0, 1));
 		System.out.println(text.regionMatches(5, compare1, 0, 2));
 		System.out.println(text.regionMatches(true, 0, compare2, 0, 4));
+	}
+	
+	public void checkSubstring() {
+		String text = "Java technology";
+	    String technology = text.substring(5);
+	    System.out.println(technology);
+	    String tech = text.substring(5, 9);
+	    System.out.println(tech);
 	}
 }
