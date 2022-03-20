@@ -53,7 +53,7 @@ public class StrCheck {
 		System.out.println(text.regionMatches(true, 0, compare2, 0, 4));
 	}
 	
-	public void checkSubstring() { 
+	public void checkSubstring() {   
 		String text = "Java technology";
 	    String technology = text.substring(5); 
 	    System.out.println(technology);
