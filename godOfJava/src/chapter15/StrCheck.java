@@ -54,7 +54,7 @@ public class StrCheck {
 	}
 	
 	public void checkSubstring() {   
-		String text = "Java technology";
+		String text = "Hello Java technology";
 	    String technology = text.substring(5); 
 	    System.out.println(technology);
 	    String tech = text.substring(5, 9);
