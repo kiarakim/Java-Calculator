@@ -14,7 +14,11 @@ public class StrCheck {
 //		sample.checkAddr(addresses);
 //		sample.constainsAddr(addresses);
 //		sample.checkMatch();
-		sample.checkSubstring();
+//		sample.checkSubstring();
+//		sample.checkSplit();
+//		sample.checkReplace();
+//		sample.checkFormat();
+		sample.internCheck();
 	}
 	
 	public void checkAddr(String[] addr) {
@@ -59,5 +63,38 @@ public class StrCheck {
 	    System.out.println(technology);
 	    String tech = text.substring(5, 9);
 	    System.out.println(tech);
+	}
+	
+	public void checkSplit() {
+		String text = "Java technology is both a programming language and a platform";
+		String[] splitStr = text.split(" ");
+		for(int i = 0; i < splitStr.length; i++) {
+			System.out.println("index " + i + " : " + splitStr[i]);
+		}
+	}
+	
+	public void checkReplace() {
+		String text = "The String class represents character strings";
+		System.out.println(text.replace('s', 'z'));
+		System.out.println(text);
+		System.out.println(text.replace("tring", "trike"));
+		System.out.println(text.replaceAll(" ", "|"));
+		System.out.println(text.replaceFirst(" ", "|"));
+	}
+	
+	public void checkFormat() {
+		String text = "제 이름은 %s입니다. 나이는 만으로 %d살이고, " + "하루에 %f%%의 시간을 공부하는데 할애하고 있습니다.";
+		String printText = String.format(text, "Kiara", 23, 10.0);
+		System.out.println(printText);
+	}
+	
+	public void internCheck() {
+		String text1 = "Java Basic";
+		String text2 = "Java Basic";
+		String text3 = new String("Java Basic");
+		text3 = text3.intern();
+		System.out.println(text1 == text2);
+		System.out.println(text1 == text3);
+		System.out.println(text1.equals(text3));
 	}
 }
