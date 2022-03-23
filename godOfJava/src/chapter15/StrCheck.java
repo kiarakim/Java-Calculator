@@ -45,7 +45,7 @@ public class StrCheck {
 	}
 	
 	public void checkMatch() {
-		String text = "This is a text. Thanks";
+		String text = "This is a text. Thanks"; 
 		String compare1 = "is";
 		String compare2 = "this";
 		System.out.println(text.regionMatches(2, compare1, 0, 1));
