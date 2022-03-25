@@ -41,7 +41,7 @@ public class AnonymousSample {
 			}
 		};
 		button.setListener(listener);
-		button.onClickProcess();
+		button.onClickProcess(); 
 	}
 
 }
