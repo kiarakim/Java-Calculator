@@ -15,7 +15,7 @@ public class UserAnnotationSample {
 	public void annotationSample2() {
 		
 	}	@UserAnnotation(number = 3, text = "thirds")
-	public void annotationSample3() {
+	public void annotationSample3() { 
 		
 	}
 }
