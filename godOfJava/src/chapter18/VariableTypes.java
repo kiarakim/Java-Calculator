@@ -1,5 +1,7 @@
 package chapter18;
 
+import java.lang.annotation.Target;
+
 public class VariableTypes {
 	int instanceVariable;
 	static int classVariable;
@@ -7,3 +9,4 @@ public class VariableTypes {
 		int localVariable;
 	}  
 }
+
