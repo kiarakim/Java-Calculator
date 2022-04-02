@@ -41,10 +41,11 @@ public class CalculateSalary {
 		employees[4] = new Employee("LeeDevelop", 5, 60000000);
 		
 		for(int i = 0; i < 5;  i++) {
-			long sal = getSalaryIncrease(employees[i]);
+//			long sal = getSalaryIncrease(employees[i]);
 //			employees[i].getSalary()
 //			System.out.println(employees[i].getName() + "=" + employees[i].getSalary());
-			System.out.println(employees[i].getName() + "=" + sal);
+//			System.out.println(employees[i].getName() + "=" + sal);
+			System.out.println(employees[i].getName() + "=" + getSalaryIncrease(employees[i]));
 		}
 	}
 	
