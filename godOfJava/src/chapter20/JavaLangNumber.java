@@ -7,7 +7,8 @@ public class JavaLangNumber {
 		sample.numberTypeCheck();
 	}
 	public void numberTypeCheck() {
-			String value1 = "3";  
+			String value1 = "3";
+			String value2 = "6";
 	}//p.555
 
 }
