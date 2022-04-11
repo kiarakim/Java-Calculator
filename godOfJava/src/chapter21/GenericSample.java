@@ -15,6 +15,10 @@ public class GenericSample {
 		
 		CastingDTO dto3 = new CastingDTO();
 		dto3.setObject(new StringBuilder());
+		
+		String temp1 = (String)dto1.getObject();
+		StringBuffer temp2 = (StringBuffer)dto2.getObject();
+		StringBuilder temp3 = (StringBuilder)dto3.getObject();
 	}
 	
 	public void checkDTO(CastingDTO dto) {
