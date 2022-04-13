@@ -10,4 +10,4 @@ public class CastingDTO implements Serializable {
 	public Object getObject() {
 		return object;
 	}
-}
+} 
