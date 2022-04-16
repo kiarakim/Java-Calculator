@@ -8,6 +8,6 @@ public class CastingDTO implements Serializable {
 		this.object = object;
 	}
 	public Object getObject() {
-		return object;
+		return object; 
 	}  
 } 
