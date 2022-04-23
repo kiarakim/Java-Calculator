@@ -23,6 +23,6 @@ public class NumberObjects {
 		System.out.println("Original : " + value);
 		System.out.println("Binary   : " + Long.toBinaryString(value));
 		System.out.println("Hex      : " + Long.toHexString(value));
-		System.out.println("Octal    : " + Long.toOctalString(value));
+		System.out.println("Octal    : " + Long.toOctalString(value)); 
 	}
 }
