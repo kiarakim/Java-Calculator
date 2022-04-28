@@ -26,7 +26,7 @@ public class GenericSample {
 		if(tempObject instanceof StringBuilder) {
 			System.out.println("This is StringBuilder");
 		}else if(tempObject instanceof StringBuffer) {
-			System.out.println("StringBuffer"); 
+			System.out.println("This is StringBuffer"); 
 		}
 	}
 }
