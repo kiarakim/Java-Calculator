@@ -24,7 +24,7 @@ public class GenericSample {
 	public void checkDTO(CastingDTO dto) {
 		Object tempObject = dto.getObject();
 		if(tempObject instanceof StringBuffer) {
-			System.out.println("This is a StringBuffer!!");
+			System.out.println("This is a StringBuffer..!!");
 		}else if(tempObject instanceof StringBuilder) {
 			System.out.println("This is a StringBuilder!!"); 
 		}
