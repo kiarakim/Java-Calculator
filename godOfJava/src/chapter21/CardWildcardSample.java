@@ -17,7 +17,7 @@ public class CardWildcardSample {
 	
 	public void callBusBoundedWildcardMethod() {
 		WildcardGeneric<Bus> wildcard = new WildcardGeneric<Bus>();
-		wildcard.setWildcard(new Bus("1401"));
+		wildcard.setWildcard(new Bus("14"));
 		boundedWildcardMethod(wildcard);
 	}
 	
