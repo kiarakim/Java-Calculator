@@ -30,7 +30,7 @@ public class MaxFinder {
 		System.out.println(getMin(3, 1, 2));
 		System.out.println(getMin(2, 3, 1));
 		System.out.println(getMin("aa", "b", "c"));
-		System.out.println(getMin("b", "c", "a"));
+		System.out.println(getMin("bb", "c", "a"));
 		System.out.println(getMin("a", "b", "c"));
 	}
 	public <T extends Comparable<T>> T getMin(T ... a) {
