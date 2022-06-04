@@ -9,7 +9,8 @@ public class ListSample {
 //		sample.checkArrayList2();
 //		sample.checkArrayList3();
 //		sample.checkArrayList4();
-		sample.checkArrayList5();
+//		sample.checkArrayList5();
+		sample.checkArrayList6();
 	}
 //	public void checkArrayList1() {
 //		ArrayList<String> list2 = new ArrayList<String>(100);
@@ -62,6 +63,9 @@ public class ListSample {
 		for(int loop = 0; loop < listSize; loop++) {
 			System.out.println("list.get(" + loop + ") = " + list.get(loop));
 		}
+	}
+	public void checkArrayList6() {
+		
 	}
 
 }
