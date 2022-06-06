@@ -90,10 +90,10 @@ public class ListSample {
 		list.add("C");
 		list.add("A");
 //		System.out.println("Removed " + list.remove(0));
-		System.out.println(list.remove("A"));
-//		ArrayList<String> temp = new ArrayList<String>();
-//		temp.add("A");
-//		list.removeAll(temp);
+//		System.out.println(list.remove("A"));
+		ArrayList<String> temp = new ArrayList<String>();
+		temp.add("A");
+		list.removeAll(temp);
 		for(int loop = 0; loop < list.size(); loop++) {
 			System.out.println("list.get(" + loop + ") = " + list.get(loop));
 		}
