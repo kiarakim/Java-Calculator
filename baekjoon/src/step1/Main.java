@@ -1,6 +1,6 @@
-package test;
+package step1;
 
-public class TestClass {
+public class Main {
 
 	public static void main(String[] args) {
 
