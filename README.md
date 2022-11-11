@@ -1,3 +1,3 @@
-# god-of-java
+# Calculator
 
-자바의 신 연습문제
+계산기 만들기
